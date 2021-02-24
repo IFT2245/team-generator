@@ -46,7 +46,7 @@ def genslug():
     while slug in slugset:
         slug = generate_slug(2)
     slugset.add(slug)
-    return "tp0-" + slug
+    return "tp2-" + slug
 
 
 makeheader = False
